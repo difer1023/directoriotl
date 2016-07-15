@@ -1,0 +1,26 @@
+<h2>Contacto Agregado</h2>
+<p>
+  <strong>Nombre:</strong>
+  <%= @contacto.nombres %>
+</p>
+ 
+<p>
+  <strong>Apellidos:</strong>
+  <%= @contacto.apellidos %>
+</p>
+
+<p>
+  <strong>Telefono:</strong>
+  <%= @contacto.telefono %>
+</p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @contacto.direccion %>
+</p>
+
+<p>
+  <strong>Mail:</strong>
+  <%= @contacto.mail %>
+</p>
+<%= link_to 'Volver a la lista', contactos_path %>

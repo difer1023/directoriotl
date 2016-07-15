@@ -1,0 +1,22 @@
+<h1>Lista de contactos</h1>
+ 
+<table>
+  <tr>
+    <th>Nombres</th>
+    <th>Apellidos</th>
+    <th>Telefono</th>
+    <th>Direccion</th>
+    <th>Mail</th>
+  </tr>
+ 
+  <% @contactos.each do |contacto| %>
+    <tr>
+      <td><%= contacto.nombres %></td>
+      <td><%= contacto.apellidos %></td>
+      <td><%= contacto.telefono %></td>
+      <td><%= contacto.direccion %></td>
+      <td><%= contacto.mail %></td>
+    </tr>
+  <% end %>
+</table>
+<%= link_to 'Nuevo contacto', new_contacto_path %>

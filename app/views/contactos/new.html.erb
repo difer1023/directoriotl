@@ -1,0 +1,32 @@
+<h1>Contacto nuevo</h1>
+
+<%= form_for :contacto, url:contactos_path do |f| %>
+  <p>
+    <%= f.label :Nombres %><br>
+    <%= f.text_field :nombres %>
+  </p>
+ 
+  <p>
+    <%= f.label :Apellidos %><br>
+    <%= f.text_field :apellidos %>
+  </p>
+
+  <p>
+    <%= f.label :Telefono %><br>
+    <%= f.text_field :telefono %>
+  </p>
+
+  <p>
+    <%= f.label :Direccion %><br>
+    <%= f.text_field :direccion %>
+  </p>
+
+  <p>
+    <%= f.label :Mail %><br>
+    <%= f.text_field :mail %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
