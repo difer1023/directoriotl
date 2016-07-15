@@ -1,24 +1,12 @@
-# README
+# Directoriotl
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este proyecto, tiene la funcion de mostrar un directorio de personas con funcion de agregar mas al mismo.
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version: 5.0
 
-* System dependencies
+* System dependencies: None
 
-* Configuration
+* Database creation: ejecutar rake db:migrate
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
